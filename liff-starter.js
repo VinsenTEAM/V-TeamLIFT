@@ -1,7 +1,7 @@
 window.onload = function() {
     const useNodeJS = false; 
-    const defaultLiffId = "1656652460-LGKR2XXJ";
-    let myLiffId = "1656652460-LGKR2XXJ";
+    const defaultLiffId = "1657498321-KmjPOxyo";
+    let myLiffId = "1657498321-KmjPOxyo";
 
     if (useNodeJS) {
         fetch('/liff/send-id', {
@@ -45,9 +45,9 @@ function sendLiff(){
             type: 'text',
             text: getParameterByName('text'),
             sentBy: {
-                label: "もバンズ",
-                iconUrl: "https://i.ibb.co/HnN4jFP/hlth-up.gif",
-                linkUrl: "https://Mo-banzu.github.io"
+                label: "BEBEK NOOBIE",
+                iconUrl: "https://i.ibb.co/0FwqSHF/BEBEK-BOT-TEAM.png",
+                linkUrl: "https://bebeknoobie1.github.io"
             }
         }]).then(function () {
             liff.closeWindow();
@@ -58,9 +58,9 @@ function sendLiff(){
             originalContentUrl: getParameterByName('img'),
             previewImageUrl: getParameterByName('img'),
             sentBy: {
-                label: "もバンズ",
-                iconUrl: "https://i.ibb.co/HnN4jFP/hlth-up.gif",
-                linkUrl: "https://Mo-banzu.github.io"
+                label: "BEBEK NOOBIE",
+                iconUrl: "https://i.ibb.co/0FwqSHF/BEBEK-BOT-TEAM.png",
+                linkUrl: "https://bebeknoobie1.github.io"
             }
         }]).then(function () {
             liff.closeWindow();
@@ -70,7 +70,7 @@ function sendLiff(){
         if(prev !== null && prev !== '') {
             dura = prev;
         } else {
-            dura = "https://i.ibb.co/TTSjGpt/activity.gif";
+            dura = "https://i.ibb.co/0FwqSHF/BEBEK-BOT-TEAM.png";
         }
         liff.sendMessages([{
             type: 'video',
