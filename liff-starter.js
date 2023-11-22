@@ -45,9 +45,9 @@ function sendLiff(){
             type: 'text',
             text: getParameterByName('text'),
             sentBy: {
-                label: "BEBEK NOOBIE",
-                iconUrl: "https://i.ibb.co/0FwqSHF/BEBEK-BOT-TEAM.png",
-                linkUrl: "https://bebeknoobie1.github.io"
+                label: "©𝐕𝐓𝐄𝐀𝐌•𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭-𝟐𝟎𝟐𝟑",
+                iconUrl: "https://i.ibb.co/n7pzyGj/20220308-173553.jpg",
+                linkUrl: "https://vinsenteam.github.io"
             }
         }]).then(function () {
             liff.closeWindow();
@@ -58,9 +58,9 @@ function sendLiff(){
             originalContentUrl: getParameterByName('img'),
             previewImageUrl: getParameterByName('img'),
             sentBy: {
-                label: "BEBEK NOOBIE",
-                iconUrl: "https://i.ibb.co/0FwqSHF/BEBEK-BOT-TEAM.png",
-                linkUrl: "https://bebeknoobie1.github.io"
+                label: "©𝐕𝐓𝐄𝐀𝐌•𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭-𝟐𝟎𝟐𝟑",
+                iconUrl: "https://i.ibb.co/n7pzyGj/20220308-173553.jpg",
+                linkUrl: "https://vinsenteam.github.io"
             }
         }]).then(function () {
             liff.closeWindow();
@@ -70,7 +70,7 @@ function sendLiff(){
         if(prev !== null && prev !== '') {
             dura = prev;
         } else {
-            dura = "https://i.ibb.co/0FwqSHF/BEBEK-BOT-TEAM.png";
+            dura = "https://i.ibb.co/n7pzyGj/20220308-173553.jpg";
         }
         liff.sendMessages([{
             type: 'video',
